@@ -45,7 +45,8 @@
     <header class="adicionar_borda">
         <div class="row">
             <div class="col-12">
-            Logo/Titulo
+            Gaming Zone
+            <img src="img/images.jfif" width="60">
             </div>
         </div>
         <div class="row">
@@ -68,57 +69,46 @@
         <form action="cadastro/" method="get" target="_blank">
 
             <!--Nome Completo-->
-
-            <label for="nome">Nome:</label>
-                <input type="text" id="nome" name="nome"
+        <div class="m-3">
+            <label class="form-label" for="nome">Nome:</label>
+                <input class="form-control" type="text" id="nome" name="nome"
                 required placeholder="Ex: Roberto Silveira Mendes"
                 title="Informe seu nome completo."><br>
-
+        </div>
             <!--E-mail de login-->
-            <label for="e-mail">E-mail:</label>
-                <input type="email" id="e-mail" name="e-mail"
+        <div class="m-3">    
+            <label class="form-label" for="e-mail">E-mail:</label>
+                <input class="form-control" type="email" id="e-mail" name="e-mail"
                 required placeholder="Ex: robsi@gmail.com"
                 title="Informe seu e-mail."><br>
-
+        </div>
             <!--Senha-->
-            <label for="senha">Senha:</label>
-                <input type="password" id="senha" name="senha"
+
+        <div class="m-3">    
+            <label class="form-label" for="senha">Senha:</label>
+                <input class="form-control" type="password" id="senha" name="senha"
                 required placeholder="Ex: R0bsi@$"
                 required minlength="6"
                 title="Informe sua senha.">
+        </div>
 
             <!--Confirmar Senha-->
-
-             <label for="senha2">Confime sua senha:</label>
-                <input type="password" id="senha2" name="senha2"
+        <div class="m-3">
+             <label class="form-label" for="senha2">Confime sua senha:</label>
+                <input class="form-control" type="password" id="senha2" name="senha2"
                 required placeholder="Ex: R0bsi@$"
                 required minlength="6"
                 title="Informe sua senha corretamente."><br>
-            
-            <!--CPF-->
+        </div>    
 
-            <label for="CPF">CPF:</label>
-                <input type="text" id="CPF" name="CPF"
+            <!--CPF-->
+        <div class="m-3">
+            <label class="form-label" for="CPF">CPF:</label>
+                <input class="form-control" type="text" id="CPF" name="CPF"
                 placeholder="000.000.000-00"
                 pattern="\d{3}\.\d{3}\.\d{3}-\d{2}"
                 title="Formato: 000.000.000-00"><br>
-
-            <label for="telefone">Telefone:</label>
-        
-            <!--NÚMERO-->
-            <input 
-            type="tel" 
-            id="telefone" 
-            name="telefone" 
-            placeholder="(99) 99999-9999" 
-            pattern="\(\d{2}\)\s?\d{4,5}-?\d{4}" 
-            title="Format
-            
-            
-            
-            gyijxnqoxknkesperado: (99) 99999-9999" 
-            required>
-
+        </div>             
 
             <button type="submit">Enviar</button>
             <button type="reset">Limpar</button>
